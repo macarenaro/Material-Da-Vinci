@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* estilos index */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradientes {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    border: rgb(73, 185, 58) solid 5px;
+    
+    background-image: linear-gradient(to bottom, #de1b8a, #c32e9a, #a43ca4, #8246a8, #5e4ca7, #495db4, #2e6dbe, #007bc3, #009cd9, #00bde7, #00dcee, #5ffbf1);
+    
+}
+
+.trasladar {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    border: black solid 5px;
+    /* transform: translate(50px, 60px); */
+    /*1ro eje x (horizontal) 2do eje Y (vert)*/
+}
+
+.rotar {
+    /*unidad de rotacion "deg"*/
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    transform: rotate(50deg);
+    /* transform: rotate(-40deg); */
+}
+
+.escalar {
+    /* valores mayores a 1 agranda, entre 1 y 0 achica */
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    border: rgb(81, 50, 192) solid 5px;
+    /* transform: scale(2, 0.7);  */
+    /* transform: skew(20deg, 30deg);  */
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/* estilos transicion */
+
+.transicion {
+    margin: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.transicion:hover {
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 100px;
+}
+
+
+
+.animacion {
+    color: rgb(156, 31, 73);
+    margin: 200px;
+    font-size: 80px;
+
+}
+.animacion:hover{animation-name: efecto;
+    /*nombre*/
+    animation-iteration-count:infinite;
+    /*veces que se ejecuta*/
+    animation-duration: 4s;
+    animation-delay: 2s;
+    /* tiempo desde que carga */
+}
+
+@keyframes efecto{
+
+    /* % hace referencia a la duración */
+     0% {
+        color: crimson
+    }
+    25% {
+        color: darkblue;
+        
+    }
+    50% {
+        color: rgb(156, 31, 73);
+    }
+    75% {
+        color: darkorange;
+        
+
+    }
+    100% {
+        color: black;
+    }
+} 
+ h3{
+    text-align: center;
+    font-size: 80px;
+ }
+.icono{
+    color: crimson;
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@keyframes efecto {
+    0% {
+        color: crimson
+    }
+    25% {
+        color: darkblue;
+        font-size: 50px;
+        transform: rotate(90deg);
+    }
+    50% {
+        color: rgb(156, 31, 73);
+    }
+    75% {
+        color: darkorange;
+    }
+    100% {
+        color: black;
+    }
+} */

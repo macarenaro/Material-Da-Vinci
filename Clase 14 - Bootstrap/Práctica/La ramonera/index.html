@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto ramonera</title>
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- mi css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- inicio nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-rosa">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ramonera</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#discos">Discos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#integrantes">Integrantes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <!-- fin -->
+   
+    <div class="bg-dark m-0 bg-img"></div>
+    <main>
+        <!-- quienes son -->
+        <section class="container-fluid bg-dark row m-0 justify-content-evenly">
+            <div class="col-lg-4  col-sm-7 col-12">
+                <h2 class=" text-rosa fw-bold fs-1">¿QUIÉNES SON?</h2>
+                <p class="text-blanco fs-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus assumenda atque, voluptates aliquam itaque quas eos blanditiis sunt consequuntur facilis officiis ipsa odio nesciunt, obcaecati, voluptas repellendus nisi laboriosam enim! Veniam, sit aliquam illo numquam necessitatibus, tempore possimus blanditiis consectetur qui dolore molestiae quis excepturi expedita ad quo officia facere facilis, architecto iure vitae maxime nesciunt! Ipsam ipsum animi recusandae!Reiciendis velit minus provident amet ipsam, molestias iusto sint iste a repellat quasi nostrum harum explicabo quod. Pariatur explicabo eum, delectus fugiat, voluptatibus possimus similique ipsa debitis placeat neque exercitationem?Laboriosam quidem molestias modi esse aperiam delectus nesciunt molestiae doloribus rem ad amet suscipit veniam, neque cumque ea blanditiis itaque aut debitis labore obcaecati accusamus eum est. Dignissimos, ratione est?</p>
+            </div>
+            <div class="mt-5 col-lg-5 col-12 col-sm-5">
+                <img class="img-fluid rounded-2" src="images/ramones.jpg" alt="Banda Los ramones">
+            </div>
+        </section>
+        <div class="bg-dark m-0 bg-img2"></div>
+        <!-- seccion discos -->
+        <div class="row row-cols-1 row-cols-sm-3 g-3 bg-primary  text-center m-0 p-5" id="discos">
+          <div class="col">
+            <div class="card border-rosa">
+              <img src="images/album_ramones.jpg" class="card-img-top" alt="card-grid-image">
+              <div class="card-body">
+                <h2 class="card-title">Ramones</h2>
+                <h3>1973</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-rosa">
+              <img src="images/album_pleasantdreams.jpg" class="card-img-top" alt="card-grid-image">
+              <div class="card-body">
+                <h2 class="card-title">Pleasant Dreams</h2>
+                <h3>1981</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus alias.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-rosa">
+              <img src="images/album_adiosamigos.jpg" class="card-img-top" alt="card-grid-image">
+              <div class="card-body">
+                <h2 class="card-title">Adiós Amigos</h2>
+                <h3>1995</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus alias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin card -->
+        
+        <!-- seccion integrantes -->
+        <section class=" bg-dark d-flex flex-wrap p-5 m-0 text-center" id="integrantes">
+            <div class="m-2">
+                <img class="img-fluid rounded-circle border border-warning" src="images/joey.jpg" alt="Joey Ramone">
+                <p>
+                    <button class="m-2 btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJoey" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Joey Ramone
+                    </button>
+                </p>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseJoey">
+                        <div class="card card-body" style="width: 250px;">
+                        Cantautor de Ramones
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-2">
+                <img class=" img-fluid rounded-circle border border-warning" src="images/johnny.jpg" alt="Johnny Ramone">
+                <p>
+                    <button class="m-2 btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJohnny" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Johnny Ramone
+                    </button>
+                  </p>
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseJohnny">
+                      <div class="card card-body" style="width: 250px;">
+                        Guitarrista de Ramones
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="m-2">
+                <img class="img-fluid rounded-circle border border-warning" src="images/deedee.jpg" alt="Dee Dee Ramone">
+                <p>
+                    <button class="m-2 btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDeeDee" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Dee Dee Ramone
+                    </button>
+                  </p>
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseDeeDee">
+                      <div class="card card-body" style="width: 250px;">
+                        Bajista y cantautor de Ramones
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="m-2">
+                <img class="img-fluid rounded-circle border border-warning" src="images/marky.jpg" alt="Marky Ramone">
+                <p>
+                    <button class="m-2 btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarky" aria-expanded="false" aria-controls="collapseWidthExample">
+                        Marky Ramone
+                    </button>
+                  </p>
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseMarky">
+                      <div class="card card-body" style="width: 250px;">
+                        Baterista de Ramones
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

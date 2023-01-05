@@ -1,0 +1,53 @@
+/* comentario */
+/* id >  class > etiqueta */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+.parrafoPrimero{
+    color: blueviolet;
+}
+.parrafoSegundo{
+    color: blue;
+}
+
+#colorRojo{
+    color: red;
+    
+}
+
+.colorVerde{
+    color: green;
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+    line-height: 30px;
+    
+}
+p{
+    color: black;
+    
+}
+
+
+h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    /* font-family: 'Dancing Script', cursive; */
+    text-decoration:none;
+    text-align: center;
+    /* letter-spacing: 10px; */
+}
+
+
+.fondoColor{
+    background-image: url(medios/colores.jpg);
+} 
+body{
+    background-image: url(medios/gotitas.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}

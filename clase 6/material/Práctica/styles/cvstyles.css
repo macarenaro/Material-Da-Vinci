@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: url('../images/45degreee_fabric.png');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    line-height: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+nav ul li a {
+    font-weight: 600;
+    color: slategrey;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+section ul li {
+    text-align: center;
+}

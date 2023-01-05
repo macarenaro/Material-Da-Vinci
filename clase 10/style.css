@@ -1,0 +1,42 @@
+.padre {
+  width: 90%;
+  height: 90vh;
+  border: black 3px dotted;
+  margin: 0 auto;
+  /* el padre que va a ser flexible */
+  display: flex;
+  /* los hijos en fila o el columna */
+  flex-direction: row;
+  /* rompa o no el eje horizontal */
+  flex-wrap: wrap;
+  
+  /* ordenar los hijos en el espacio disponible y eje principal */
+  justify-content: space-around;
+  /* 1 fila de hijos, eje secundario */
+  align-items: center; 
+  /* mas de una fila y es wrap */
+  /* align-content: space-around; */
+
+}
+
+.hijos {
+  width: 150px;
+  height: 150px;
+  border: red 4px solid;
+  text-align: center;
+  font-size: 3rem;
+}
+.hijo1{
+  order: 2;
+  flex-grow: 2;
+}
+.hijo3{
+  order: 1;
+  flex-grow: 4;
+} 
+/*-----------------------------------------------------------------------*/
+
+
+header{
+  background-color: cadetblue;
+}

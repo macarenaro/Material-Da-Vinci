@@ -1,0 +1,82 @@
+/* ------------------------------------------------ */
+/* BOX MODEL*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    border: blue 1px solid;
+    padding: 10px;
+}
+/* p {
+    background-color: aquamarine;
+    border-top: 2px red solid;
+    border-bottom: 3px blue solid;
+    padding: 25px 40px 30px 42px;
+    margin: 20px auto;
+    width: 150px;
+}  */
+.conPropiedad{
+    width: 500px;
+    padding: 20px;
+    border: 2px black solid;
+    box-sizing: border-box;
+    background-color: rgb(124, 163, 221);
+
+}
+.sinPropiedad{
+    width: 50%;
+    padding: 20px;
+    border: 2px black solid;
+    background-color: rgb(135, 235, 135);
+}
+.padre{
+    margin: auto;
+    background-color: pink;
+    width: 50%;
+    height: 250px;
+    margin-bottom: 200px;
+}
+.caja{
+    margin: auto;
+    background-color: rgba(137, 43, 226, 0.151);
+    
+    font-size: 100px;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+}
+
+
+/* ------------------------------------------------ */
+/* UNIDADES DE MEDIA */
+
+html{
+    /* 100%=16px
+        62.5%=10px*/
+    /* font-size: 62.5%; */
+}
+
+.padreEm {
+    width: 500px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    font-size: 20px; 
+}
+
+/* em 0em= 0% y 1em=100% */
+.hijoEm {
+    
+    font-size: 0.5em;
+}
+
+.hijoRem{
+    font-size: 2rem;
+}
+
+.hijoPx{
+    font-size: 50%;
+}

@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins', sans-serif;font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* estilos nav */
+.bg-rosa{
+    background-color: deeppink;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    font-size: 2em;
+    color: white;
+}
+
+.nav-link{
+    color: wheat;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+/* fin nav */
+
+/* fondo img */
+.bg-img{
+    background: url("images/hero-image.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding: 200px;
+}
+.bg-img2{
+    background: url("images/recital-bkg.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding: 200px;
+}
+
+
+/* main */
+
+.text-rosa{
+    color: deeppink;
+    margin-top: 10px;
+}
+
+.text-blanco{
+    color: white;
+    text-align: justify;
+}
+
+/* cards */
+.border-rosa{
+    border: deeppink solid 3px;
+}
+
+@media screen and (max-width: 500px) {
+    .bg-img, .bg-img2{
+        padding: 150px;
+    }
+} 

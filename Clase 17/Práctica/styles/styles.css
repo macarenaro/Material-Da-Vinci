@@ -1,0 +1,58 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+.bkg-hero {
+    padding: 200px;
+    background: url("../images/hero-image.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+.bkg-pink {
+    background-color: deeppink;
+}
+.text-pink {
+    color: deeppink;
+}
+.border-pink {
+    border:2px solid deeppink;
+}
+
+.fondo-recital {
+    background: url("../images/recital-bkg.jpg") fixed;
+}
+
+.profile:hover {
+    border: 2px solid deeppink;
+}
+
+.btn-live{
+    border: 1px solid deeppink;
+    color: deeppink;
+    background-color: white;
+    margin: 1em;
+}
+.btn-live:hover {
+    color: white;
+    background-color: deeppink;
+}
+
+.btn-bkg-pink:hover {
+    background: black;
+    border: 1px solid deeppink;
+}
+

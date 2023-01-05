@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* RESETS */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* MENÚ NAVEGACIÓN */
+
+ nav {
+    background-color: black;
+    height: 8vh;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: teal;
+}
+
+/* HEADER */
+header {
+    background-image: url('../imagenes/fondo-bosque.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 102px 0px 132px 0px;
+    margin-bottom: 92px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    border: 15px solid white;
+    width: 80%;
+    padding: 106px 0px 136px 0px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+h1 span {
+    font-size: 120px;
+}
+/* GENERAL */
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+/* SECCIONES */
+#seccion1,
+#seccion2 {
+    
+    width: 1170px; 
+    margin: 0 auto;
+    margin-bottom: 92px;
+    padding: 80px 0px 144px 0px;
+}
+
+#seccion1 {
+    background: url('../imagenes/fondo-wwd.jpg') no-repeat right;
+    background-size: contain;
+}
+
+#seccion1 p {
+    width: 780px;
+    font-weight: 100;
+    background-color: white;
+    padding: 10px 5px 10px 0px;
+}
+
+/* segunda sección */
+.quienessomos{
+    background: url('../imagenes/fondo-wwa.jpg') no-repeat left;
+    background-size: contain;
+}
+
+#seccion2{
+    padding: 200px 0px 200px 0px;
+}
+
+#seccion2 div{
+    margin-left: 750px;
+    width: 40%;
+    background-color: white;
+    padding: 15px;
+}
+
+#seccion2 p{
+    margin-bottom: 90px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+/* Galeria */
+#galeria{
+    background-image: linear-gradient(90deg, rgba(254, 211, 66, 1) 0%, rgba(254, 160, 66, 1) 25%, rgba(205, 113, 125, 1) 100%);
+    padding: 70px 0px 95px 0px;
+    text-align: center;
+    margin-bottom: 92px;
+}
+#galeria figure img{
+    margin: 15px;
+}
+
+/* footer */
+footer{
+    background: url('../imagenes/pattern.jpg');
+    border-top: 15px solid #adadad;
+    border-bottom: 15px solid #adadad;
+    padding: 200px 0px 350px 0px;
+}
+
+footer div{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+footer div p{
+    width: 780px;
+    border-bottom: 15px solid #adadad;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    /* Nav */
+    nav{
+       font-size: 10px;
+    }
+    nav ul li {
+        padding: 15px;
+    }
+    /* header */
+    h1 {
+        font-size: 20px;
+        border: 5px solid white;
+        width: 80%;
+        padding: 106px 0px 136px 0px;
+
+    }
+    
+    h1 span {
+        font-size: 60px;
+    }
+    /* SECCIONES */
+    #seccion1,
+    #seccion2 {
+    
+        width: 80%; 
+        margin: 0 auto;
+        margin-bottom: 92px;
+        background: none;
+        background-color: burlywood;
+        
+    }
+    p {
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    #seccion1 p {
+        width: 80%;
+        font-weight: 100;
+        background: none;
+        margin: 0 auto;
+    }
+}
